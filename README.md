@@ -71,7 +71,47 @@ The incident reporting process includes:
 ## Documentation
 [Link to Documentation](https://linktodocumentation)
 
-## Installation
+
+# Tech Stack
+- Client: React, Redux, TailwindCSS
+- Server: Node, Express
+
+# Running Tests
+To run tests, use the following command:
+```bash
+  ./pingfence.sln
+```
+# Usage/Examples
+javascript
+Copy code
+import OneStopSolution from 'one-stop-solution'
+```bash
+  import OneStopSolution from 'one-stop-solution'
+
+  function App() 
+  {
+  return <OneStopSolution />
+  }
+```
+
+
+## Demo
+
+Insert gif or link to demo
+
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 Install the One Stop Solution with npm:
 
 ```bash
