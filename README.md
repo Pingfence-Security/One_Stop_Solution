@@ -112,8 +112,3 @@ Insert gif or link to demo
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-Install the One Stop Solution with npm:
-
-```bash
-npm install one-stop-solution
-cd one-stop-solution
