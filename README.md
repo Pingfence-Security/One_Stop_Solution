@@ -1,156 +1,79 @@
-# One_Stop_Solution
-# Identifying Security Incidents
-Security incidents can emanate from a diverse array of sources and often manifest as detections, anomalies, or deviations from established baselines. There are primarily three key sources for incident identification:
+# One Stop Solution for Cyber Security Needs
 
-- Security Systems/Tooling - in Place	There is a wide variety of security systems and tools likely in place within your organization. Some excellent sources for identification include IDS/IPS, EDR/XDR, SIEM tools, or even basic anti-virus alerts and NetFlow data.
-- Human Observations -	Users may notice and report suspicious activities, unusual emails, or systems behaving abnormally.
-- Third Party Notifications -	Partners, vendors, or even customers might inform organizations about any vulnerabilities or breaches they are experiencing.
+## Overview
+The One Stop Solution is a comprehensive system software designed to fulfill the cyber security needs of novice users navigating the online landscape. It provides a range of sustainable features, including antivirus protection, VPN services, full system scans, quick scans, system cleaning, malware cleaning, and threat mitigation. Leveraging the Windows platform as its main backbone, the software incorporates sophisticated and easy-to-implement terminal and PowerShell scripts to protect systems at their core.
 
-## Categorising Security Incidents
-Upon identification of an incident, it is imperative to categorize it to facilitate the prioritization and allocation of resources for an effective response. This categorization also aids in comprehending the nature of the incident, thereby informing subsequent briefings to stakeholders.
+## Features
+- Antivirus Protection
+- VPN Service
+- Full System Scan
+- Quick Scan
+- System Cleaning
+- Malware Cleaning
+- Threat Mitigation
+- Alerting System
+- Incident Reporting
 
-Examples of Incident Types:
-- Malware: Malicious software encompassing viruses, worms, and ransomware.
-- Phishing: Fraudulent endeavors to exfiltrate sensitive information, predominantly via email.
-- DDoS Attacks: Deliberate attempts to inundate a system or network, thereby disrupting its regular functionality.
-- Unauthorised Access: Incidents where unauthorized entities gain access to systems or data repositories.
-- Data Leakage: Inadvertent exposure of confidential data, both within and outside the organizational perimeter.
-- Physical Breach: Unauthorized physical access to secure locations.
+## Incident Identification
+Security incidents can arise from various sources, including:
+- Security Systems/Tooling: IDS/IPS, EDR/XDR, SIEM tools, anti-virus alerts, and NetFlow data.
+- Human Observations: Users reporting suspicious activities or abnormal system behavior.
+- Third Party Notifications: Partners, vendors, or customers reporting vulnerabilities or breaches.
 
-## Incident Severity Levels:
-- Critical (P1): Imminent threats that jeopardize core business functionalities or sensitive data, necessitating immediate intervention.
-- High (P2): Latent threats to business operations that, while not immediately detrimental, are of elevated priority.
-- Medium (P3): Incidents that, although not posing an immediate threat to business operations, warrant timely attention.
-- Low (P4): Trivial incidents or routine anomalies that can be managed within standard operational workflows.
+## Categorizing Security Incidents
+Incidents are categorized based on their nature:
+- Malware
+- Phishing
+- DDoS Attacks
+- Unauthorized Access
+- Data Leakage
+- Physical Breach
 
-# The Incident Reporting Process
-The reporting process serves as the cohesive framework that binds all elements of security incident reporting. An effective, overarching reporting mechanism delivers not just clarity and direction, but also highly actionable insights. In this section, we'll dissect the requisite steps within this process.
+## Incident Severity Levels
+- Critical (P1)
+- High (P2)
+- Medium (P3)
+- Low (P4)
 
-- Initial Detection & Acknowledgemen
+## The Incident Reporting Process
+The incident reporting process includes:
+- Initial Detection & Acknowledgment
 - Preliminary Analysis
 - Incident Logging
 - Notification of Relevant Parties
 - Detailed Investigation & Reporting
 - Final Report Creation
-- Feedback Loop!
+- Feedback Loop
 
-# Elements of a Proper Incident Report
-## Executive Summary
-### Let's consider the Executive Summary as the gateway to our report, designed to cater to a broad audience, including non-technical stakeholders. This section should furnish the reader with a succinct overview, key findings, immediate actions executed, and the impact on stakeholders. Since many stakeholders may only peruse the Executive Summary, it's imperative to nail this section. Here's a more granular breakdown of what should be encapsulated in the Executive Summary:
+## Elements of a Proper Incident Report
+### Executive Summary
+- Incident ID
+- Incident Overview
+- Key Findings
+- Immediate Actions Taken
+- Stakeholder Impact
 
-- Incident ID	Unique identifier for the incident.
-- Incident Overview	Provide a concise summary of the incident's events (including initial detection) and explicitly state its type. Was it a ransomware attack, a large-scale data breach, or both? This should also encompass the estimated time and date of the incident, as well as its duration, the affected systems/data, and the status (ongoing, resolved, or escalated)
-- Key Findings	Enumerate any salient findings that emerged from the incident. What was the root cause? Was a specific CVE exploited? What data, if any, was compromised, exfiltrated, or jeopardized?
-- Immediate Actions Taken	Outline the immediate response measures taken. Were the affected systems promptly isolated? Was the root cause identified? Did we engage any third-party services, and if so, who were they?
-- Stakeholder Impact	Assess the potential impact on various stakeholders. For instance, did any customers experience downtime, and what are the financial ramifications? Was employee data compromised? Was proprietary information at risk, and what are the potential repercussions?
-
-## Technical Timeline
+### Technical Timeline
 - Reconnaissance
 - Initial Compromise
 - C2 Communications
 - Enumeration
 - Lateral Movement
 - Data Access & Exfiltration
-- Malware Deployment or Activity (including Process Injection and Persistence)
+- Malware Deployment or Activity
 - Containment Times
 - Eradication Times
 - Recovery Times
+
 ## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
+- [Aadhaar Koul](https://github.com/aadhaar-debug)
 
 ## Documentation
-
-[Documentation](https://linktodocumentation)
-
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
+[Link to Documentation](https://linktodocumentation)
 
 ## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Deployment
-
-To deploy this project run
+Install the One Stop Solution with npm:
 
 ```bash
-  npm run deploy
-```
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
-
-
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-
-## Demo
-
-Insert gif or link to demo
-
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
+npm install one-stop-solution
+cd one-stop-solution
