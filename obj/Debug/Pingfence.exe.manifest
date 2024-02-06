@@ -28,14 +28,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pingfence.exe" size="2933208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pingfence.exe" size="3080664">
       <assemblyIdentity name="Pingfence" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rt59UnOsHAP4SYxebfUe5VNHj6PZ8ZhY2svOcSxLqP4=</dsig:DigestValue>
+        <dsig:DigestValue>yYDPCX8Ub4i96FTH4/6EQUZi29akpSEnxsRwd0xJ0SA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
