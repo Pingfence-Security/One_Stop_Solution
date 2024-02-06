@@ -10,20 +10,18 @@ using System.Windows.Forms;
 
 namespace Pingfence
 {
-    public partial class SpeedUp : Form
+    public partial class VPN : Form
     {
-        public SpeedUp()
+        public VPN()
         {
             InitializeComponent();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            // Create an instance of the Pingfence form
-            Pingfence Pingfence = new Pingfence();
+            Pingfence pingfence = new Pingfence();
             this.Hide();
-            // Show the Pingfence form
-            Pingfence.Show();
+            pingfence.Show();
         }
     }
 }

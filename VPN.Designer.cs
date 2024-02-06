@@ -1,6 +1,6 @@
 ﻿namespace Pingfence
 {
-    partial class SpeedUp
+    partial class VPN
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpeedUp));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VPN));
             this.panel1 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -128,7 +128,7 @@
             // button13
             // 
             this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button13.Location = new System.Drawing.Point(10, 221);
+            this.button13.Location = new System.Drawing.Point(10, 223);
             this.button13.Margin = new System.Windows.Forms.Padding(10);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(188, 48);
@@ -139,7 +139,7 @@
             // button12
             // 
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button12.Location = new System.Drawing.Point(10, 155);
+            this.button12.Location = new System.Drawing.Point(10, 157);
             this.button12.Margin = new System.Windows.Forms.Padding(10);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(188, 46);
@@ -150,7 +150,7 @@
             // button11
             // 
             this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button11.Location = new System.Drawing.Point(10, 87);
+            this.button11.Location = new System.Drawing.Point(10, 89);
             this.button11.Margin = new System.Windows.Forms.Padding(10);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(188, 48);
@@ -161,7 +161,7 @@
             // button8
             // 
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.Location = new System.Drawing.Point(10, 21);
+            this.button8.Location = new System.Drawing.Point(10, 23);
             this.button8.Margin = new System.Windows.Forms.Padding(10);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(188, 46);
@@ -207,7 +207,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(223, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(988, 711);
+            this.groupBox1.Size = new System.Drawing.Size(987, 713);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -384,7 +384,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1214, 717);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1213, 719);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // tableLayoutPanel6
@@ -399,7 +399,7 @@
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.79109F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.20892F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(214, 711);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(214, 713);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // tableLayoutPanel7
@@ -483,13 +483,13 @@
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(208, 529);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(208, 531);
             this.tableLayoutPanel11.TabIndex = 1;
             // 
             // button9
             // 
             this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.Location = new System.Drawing.Point(10, 423);
+            this.button9.Location = new System.Drawing.Point(10, 425);
             this.button9.Margin = new System.Windows.Forms.Padding(10);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(188, 47);
@@ -500,7 +500,7 @@
             // button15
             // 
             this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button15.Location = new System.Drawing.Point(10, 354);
+            this.button15.Location = new System.Drawing.Point(10, 356);
             this.button15.Margin = new System.Windows.Forms.Padding(10);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(188, 49);
@@ -511,7 +511,7 @@
             // button14
             // 
             this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button14.Location = new System.Drawing.Point(10, 289);
+            this.button14.Location = new System.Drawing.Point(10, 291);
             this.button14.Margin = new System.Windows.Forms.Padding(10);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(188, 45);
@@ -519,17 +519,16 @@
             this.button14.Text = "Notification";
             this.button14.UseVisualStyleBackColor = true;
             // 
-            // SpeedUp
+            // VPN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1214, 717);
+            this.ClientSize = new System.Drawing.Size(1213, 719);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "SpeedUp";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SpeedUp";
+            this.Name = "VPN";
+            this.Text = "VPN";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

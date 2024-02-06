@@ -600,7 +600,7 @@ namespace Pingfence
         private void label6_Click_1(object sender, EventArgs e)
         {
             Activation activation = new Activation();
-            this.Hide();
+            //this.Hide();
             activation.Show();
         }
 
@@ -635,13 +635,39 @@ namespace Pingfence
         private void pictureBox4_Click_2(object sender, EventArgs e)
         {
             Activation activation = new Activation();
-            this.Hide();
+            //this.Hide();
             activation.Show();
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void groupBox1_Enter_3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            VPN vpn = new VPN();
+            this.Hide();
+            vpn.Show();
+        }
+
+        private void pictureBox10_Click_1(object sender, EventArgs e)
+        {
+            VPN vpn = new VPN();
+            this.Hide();
+            vpn.Show();
+        }
+
+        private void pictureBox11_Click_1(object sender, EventArgs e)
+        {
+            GoPremium goPremium = new GoPremium();
+
+            goPremium.Show();
         }
     }
 }

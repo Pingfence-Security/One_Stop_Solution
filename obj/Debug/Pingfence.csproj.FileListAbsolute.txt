@@ -20,3 +20,5 @@ C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.QuickScan.resources
 C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.SpeedUp.resources
 C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.FullScan.resources
 C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.Activation.resources
+C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.VPN.resources
+C:\Users\acer\source\repos\Pingfence\obj\Debug\Pingfence.GoPremium.resources

@@ -195,5 +195,14 @@ namespace Pingfence
         {
 
         }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            // Create an instance of the Pingfence form
+            Pingfence Pingfence = new Pingfence();
+            this.Hide();
+            // Show the Pingfence form
+            Pingfence.Show();
+        }
     }
 }

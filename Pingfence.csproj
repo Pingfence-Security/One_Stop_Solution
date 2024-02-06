@@ -97,6 +97,12 @@
     <Compile Include="FullScan.Designer.cs">
       <DependentUpon>FullScan.cs</DependentUpon>
     </Compile>
+    <Compile Include="GoPremium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoPremium.Designer.cs">
+      <DependentUpon>GoPremium.cs</DependentUpon>
+    </Compile>
     <Compile Include="greet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,12 @@
     <Compile Include="VirusScan.Designer.cs">
       <DependentUpon>VirusScan.cs</DependentUpon>
     </Compile>
+    <Compile Include="VPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPN.Designer.cs">
+      <DependentUpon>VPN.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Activation.resx">
       <DependentUpon>Activation.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FullScan.resx">
       <DependentUpon>FullScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoPremium.resx">
+      <DependentUpon>GoPremium.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="greet.resx">
       <DependentUpon>greet.cs</DependentUpon>
@@ -170,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VirusScan.resx">
       <DependentUpon>VirusScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPN.resx">
+      <DependentUpon>VPN.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="MyApplication.exe.manifest" />

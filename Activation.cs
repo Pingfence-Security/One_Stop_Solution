@@ -31,5 +31,10 @@ namespace Pingfence
         {
             this.Close();
         }
+
+        private void Activation_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
