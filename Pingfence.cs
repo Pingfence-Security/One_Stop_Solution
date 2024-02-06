@@ -16,6 +16,8 @@ namespace Pingfence
     {
         private Timer fadeInTimer;
         private double currentOpacity;
+        private bool pictureBoxVisible = false;
+        private string labelText = "";
         public Pingfence()
         {
             InitializeComponent();
@@ -358,22 +360,26 @@ namespace Pingfence
 
         private void button14_Click(object sender, EventArgs e)
         {
-
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -408,7 +414,8 @@ namespace Pingfence
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -574,6 +581,12 @@ namespace Pingfence
             QuickScan quickScan = new QuickScan();
             this.Hide();
             quickScan.Show();
+
+            label9.Text = "You are Safe";
+
+            // Update the state variables
+            pictureBoxVisible = pictureBox24.Visible;
+            labelText = label9.Text;
         }
 
         private void label2_Click_2(object sender, EventArgs e)
@@ -581,6 +594,18 @@ namespace Pingfence
             QuickScan quickScan = new QuickScan();
             this.Hide();
             quickScan.Show();
+
+            label9.Text = "You are Safe";
+
+            // Update the state variables
+            pictureBoxVisible = pictureBox24.Visible;
+            labelText = label9.Text;
+        }
+
+        // Add this method to restore the state when navigating back
+        private void RestoreState()
+        {
+            label9.Text = labelText;
         }
 
         private void label3_Click_2(object sender, EventArgs e)
@@ -668,6 +693,48 @@ namespace Pingfence
             GoPremium goPremium = new GoPremium();
 
             goPremium.Show();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            // Define the URL you want to redirect to
+            string websiteUrl = "https://www.pingfence.com";
+
+            // Open the URL in the default browser
+            System.Diagnostics.Process.Start(websiteUrl);
+        }
+
+        public void label9_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        public void pictureBox24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void pictureBox23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox23_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            pictureBox25.Visible = false;
+
+            // Stop the timer
+            timer1.Stop();
         }
     }
 }
