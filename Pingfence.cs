@@ -14,92 +14,92 @@ namespace Pingfence
 {
     public partial class Pingfence : Form
     {
-        private Timer fadeInTimer;
-        private double currentOpacity;
-        private bool pictureBoxVisible = false;
-        private string labelText = "";
+        public Timer fadeInTimer;
+        public double currentOpacity;
+        public bool pictureBoxVisible = false;
+        public string labelText = "";
         public Pingfence()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        public void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox2_Click_1(object sender, EventArgs e)
+        public void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        public void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        public void panel2_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
+        public void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel7_Paint_1(object sender, PaintEventArgs e)
+        public void tableLayoutPanel7_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void Pingfence_Load(object sender, EventArgs e)
+        public void Pingfence_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
+        public void label1_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
+        public void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        public void pictureBox3_Click(object sender, EventArgs e)
         {
             // Define the URL you want to open
             string url = "https://pingfence.com"; // Replace "https://example.com" with the actual URL you want to open
@@ -108,27 +108,27 @@ namespace Pingfence
             Process.Start(url);
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        public void button7_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel7_Paint_2(object sender, PaintEventArgs e)
+        public void tableLayoutPanel7_Paint_2(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel4_Paint_1(object sender, PaintEventArgs e)
+        public void tableLayoutPanel4_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        public void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -273,7 +273,7 @@ namespace Pingfence
 
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        public void button4_Click_1(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             VirusScan VirusScan = new VirusScan();
@@ -282,7 +282,7 @@ namespace Pingfence
             VirusScan.Show();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        public void label7_Click(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             QuickScan QuickScan = new QuickScan();
@@ -291,7 +291,7 @@ namespace Pingfence
             QuickScan.Show();
         }
 
-        private void pictureBox9_Click(object sender, EventArgs e)
+        public void pictureBox9_Click(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             QuickScan QuickScan = new QuickScan();
@@ -300,12 +300,12 @@ namespace Pingfence
             QuickScan.Show();
         }
 
-        private void label11_Click(object sender, EventArgs e)
+        public void label11_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        public void button8_Click(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             Pingfence Pingfence = new Pingfence();
@@ -314,7 +314,7 @@ namespace Pingfence
             Pingfence.Show();
         }
 
-        private void button7_Click_1(object sender, EventArgs e)
+        public void button7_Click_1(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             SpeedUp SpeedUp = new SpeedUp();
@@ -323,7 +323,7 @@ namespace Pingfence
             SpeedUp.Show();
         }
 
-        private void button5_Click_1(object sender, EventArgs e)
+        public void button5_Click_1(object sender, EventArgs e)
         {
             // Create an instance of the Pingfence form
             FullScan FullScan = new FullScan();
@@ -352,37 +352,37 @@ namespace Pingfence
 
         }
 
-        private void pictureBox3_Click_2(object sender, EventArgs e)
+        public void pictureBox3_Click_2(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
 
-        private void button14_Click(object sender, EventArgs e)
+        public void button14_Click(object sender, EventArgs e)
         {
             // Display a MessageBox with the specified message
             MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        public void button13_Click(object sender, EventArgs e)
         {
             // Display a MessageBox with the specified message
             MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        public void button12_Click(object sender, EventArgs e)
         {
             // Display a MessageBox with the specified message
             MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        public void button15_Click(object sender, EventArgs e)
         {
             // Display a MessageBox with the specified message
             MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
+        public void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
@@ -404,7 +404,11 @@ namespace Pingfence
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            // Create an instance of the Pingfence form
+            UtilityTools utilitytools = new UtilityTools();
+            this.Hide();
+            // Show the Pingfence form
+            utilitytools.Show();
         }
 
         private void tableLayoutPanel11_Paint(object sender, PaintEventArgs e)
@@ -412,7 +416,7 @@ namespace Pingfence
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        public void button9_Click(object sender, EventArgs e)
         {
             // Display a MessageBox with the specified message
             MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -553,7 +557,7 @@ namespace Pingfence
 
         }
 
-        private void pictureBox7_Click_2(object sender, EventArgs e)
+        public void pictureBox7_Click_2(object sender, EventArgs e)
         {
             // Display a message box asking the user if they are sure they want to quit
             DialogResult result = MessageBox.Show("Are you sure you want to quit the program?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
@@ -570,13 +574,13 @@ namespace Pingfence
             }
         }
 
-        private void pictureBox5_Click_2(object sender, EventArgs e)
+        public void pictureBox5_Click_2(object sender, EventArgs e)
         {
             // Minimize the application window
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        public void pictureBox1_Click(object sender, EventArgs e)
         {
             QuickScan quickScan = new QuickScan();
             this.Hide();
@@ -589,7 +593,7 @@ namespace Pingfence
             labelText = label9.Text;
         }
 
-        private void label2_Click_2(object sender, EventArgs e)
+        public void label2_Click_2(object sender, EventArgs e)
         {
             QuickScan quickScan = new QuickScan();
             this.Hide();
@@ -603,68 +607,64 @@ namespace Pingfence
         }
 
         // Add this method to restore the state when navigating back
-        private void RestoreState()
+        public void RestoreState()
         {
             label9.Text = labelText;
         }
 
-        private void label3_Click_2(object sender, EventArgs e)
+        public void label3_Click_2(object sender, EventArgs e)
         {
             FullScan fullScan = new FullScan();
             this.Hide();
             fullScan.Show();
         }
 
-        private void pictureBox3_Click_1(object sender, EventArgs e)
+        public void pictureBox3_Click_1(object sender, EventArgs e)
         {
             FullScan fullScan = new FullScan();
             this.Hide();
             fullScan.Show();
         }
 
-        private void label6_Click_1(object sender, EventArgs e)
+        public void label6_Click_1(object sender, EventArgs e)
         {
             Activation activation = new Activation();
             //this.Hide();
             activation.Show();
         }
 
-        private void label4_Click_1(object sender, EventArgs e)
+        public void label4_Click_1(object sender, EventArgs e)
         {
-            VirusScan virusScan = new VirusScan();
-            this.Hide();
-            virusScan.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
+        public void pictureBox8_Click(object sender, EventArgs e)
         {
-            VirusScan virusScan = new VirusScan();
-            this.Hide();    
-            virusScan.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void label8_Click_2(object sender, EventArgs e)
+        public void label8_Click_2(object sender, EventArgs e)
         {
-            SpeedUp speedUp = new SpeedUp();
-            this.Hide();
-            speedUp.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void pictureBox9_Click_1(object sender, EventArgs e)
+        public void pictureBox9_Click_1(object sender, EventArgs e)
         {
-            SpeedUp speedUp = new SpeedUp();
-            this.Hide();
-            speedUp.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void pictureBox4_Click_2(object sender, EventArgs e)
+        public void pictureBox4_Click_2(object sender, EventArgs e)
         {
             Activation activation = new Activation();
             //this.Hide();
             activation.Show();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        public void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -674,28 +674,26 @@ namespace Pingfence
 
         }
 
-        private void label16_Click(object sender, EventArgs e)
+        public void label16_Click(object sender, EventArgs e)
         {
-            VPN vpn = new VPN();
-            this.Hide();
-            vpn.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void pictureBox10_Click_1(object sender, EventArgs e)
+        public void pictureBox10_Click_1(object sender, EventArgs e)
         {
-            VPN vpn = new VPN();
-            this.Hide();
-            vpn.Show();
+            // Display a MessageBox with the specified message
+            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void pictureBox11_Click_1(object sender, EventArgs e)
+        public void pictureBox11_Click_1(object sender, EventArgs e)
         {
             GoPremium goPremium = new GoPremium();
 
             goPremium.Show();
         }
 
-        private void pictureBox14_Click(object sender, EventArgs e)
+        public void pictureBox14_Click(object sender, EventArgs e)
         {
             // Define the URL you want to redirect to
             string websiteUrl = "https://www.pingfence.com";
@@ -729,12 +727,24 @@ namespace Pingfence
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        public void timer1_Tick(object sender, EventArgs e)
         {
             pictureBox25.Visible = false;
 
             // Stop the timer
             timer1.Stop();
+        }
+
+        private void pictureBox6_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox23_Click_2(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            this.Hide();
+            settings.Show();
         }
     }
 }

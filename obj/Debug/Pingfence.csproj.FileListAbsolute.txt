@@ -46,3 +46,5 @@ C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.exe.manifest
 C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.application
 C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.exe
 C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.pdb
+C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.Settings.resources
+C:\Users\acer\Desktop\One_Stop_Solution\obj\Debug\Pingfence.UtilityTools.resources
