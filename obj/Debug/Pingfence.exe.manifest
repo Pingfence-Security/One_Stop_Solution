@@ -35,10 +35,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wJm2LdUgYBXHOI/Edrml/Uu4S1W3xOZNyPmrBpfSuuE=</dsig:DigestValue>
+        <dsig:DigestValue>oqmsP4GjFwrpoPvsXg1TxyH4I3Q139uQZxtyCEpKTnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="MyModule1.vb" size="4982">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/SukyzHaI9qwRO59y2mF/vZQ60obvMs5CoWVFrzxY6o=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Pingfence.exe.config" size="189">
     <hash>
       <dsig:Transforms>
