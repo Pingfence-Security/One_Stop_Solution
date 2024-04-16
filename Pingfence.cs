@@ -277,7 +277,7 @@ namespace Pingfence
         {
             // Create an instance of the Pingfence form
             VirusScan VirusScan = new VirusScan();
-
+            this.Hide();
             // Show the Pingfence form
             VirusScan.Show();
         }
@@ -286,7 +286,7 @@ namespace Pingfence
         {
             // Create an instance of the Pingfence form
             QuickScan QuickScan = new QuickScan();
-
+            this.Hide();
             // Show the Pingfence form
             QuickScan.Show();
         }
@@ -309,7 +309,7 @@ namespace Pingfence
         {
             // Create an instance of the Pingfence form
             Pingfence Pingfence = new Pingfence();
-
+            this.Hide();
             // Show the Pingfence form
             Pingfence.Show();
         }
@@ -318,7 +318,7 @@ namespace Pingfence
         {
             // Create an instance of the Pingfence form
             SpeedUp SpeedUp = new SpeedUp();
-
+            this.Hide();
             // Show the Pingfence form
             SpeedUp.Show();
         }
@@ -327,7 +327,7 @@ namespace Pingfence
         {
             // Create an instance of the Pingfence form
             FullScan FullScan = new FullScan();
-
+            this.Hide();
             // Show the Pingfence form
             FullScan.Show();
         }
@@ -372,8 +372,11 @@ namespace Pingfence
 
         public void button12_Click(object sender, EventArgs e)
         {
-            // Display a MessageBox with the specified message
-            MessageBox.Show("Upgrade current plan to access this feature", "Upgrade Plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Create an instance of the Pingfence form
+            Cloudconsole organizations = new Cloudconsole();
+            this.Hide();
+            // Show the Pingfence form
+            organizations.Show();
         }
 
         public void button15_Click(object sender, EventArgs e)
@@ -661,6 +664,7 @@ namespace Pingfence
         {
             Activation activation = new Activation();
             //this.Hide();
+
             activation.Show();
         }
 
@@ -689,7 +693,7 @@ namespace Pingfence
         public void pictureBox11_Click_1(object sender, EventArgs e)
         {
             GoPremium goPremium = new GoPremium();
-
+            this.Hide();
             goPremium.Show();
         }
 

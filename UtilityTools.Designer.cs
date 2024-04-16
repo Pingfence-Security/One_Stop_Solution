@@ -102,7 +102,7 @@
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.333333F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.66666F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(209, 172);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(211, 169);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
             // tableLayoutPanel8
@@ -118,17 +118,17 @@
             this.tableLayoutPanel8.RowCount = 2;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.29906F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.70094F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(203, 108);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(205, 105);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(64, 26);
+            this.pictureBox3.Location = new System.Drawing.Point(66, 25);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(58, 82);
+            this.pictureBox3.Size = new System.Drawing.Size(58, 80);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -138,10 +138,10 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(35, 120);
+            this.label1.Location = new System.Drawing.Point(35, 117);
             this.label1.Margin = new System.Windows.Forms.Padding(35, 0, 3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 52);
+            this.label1.Size = new System.Drawing.Size(173, 52);
             this.label1.TabIndex = 1;
             this.label1.Text = "Pingfence v.2024.0.1";
             // 
@@ -320,9 +320,9 @@
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(224, 3);
+            this.groupBox1.Location = new System.Drawing.Point(226, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(988, 719);
+            this.groupBox1.Size = new System.Drawing.Size(1002, 707);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -408,7 +408,7 @@
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(992, 37);
+            this.panel1.Size = new System.Drawing.Size(1003, 37);
             this.panel1.TabIndex = 43;
             // 
             // tableLayoutPanel1
@@ -424,7 +424,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1215, 725);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1231, 713);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // tableLayoutPanel6
@@ -439,15 +439,15 @@
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.79109F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.20892F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(215, 719);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(217, 707);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.tableLayoutPanel2);
-            this.groupBox2.Location = new System.Drawing.Point(3, 181);
+            this.groupBox2.Location = new System.Drawing.Point(3, 178);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(209, 535);
+            this.groupBox2.Size = new System.Drawing.Size(209, 526);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -478,14 +478,14 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(203, 514);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(203, 505);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(10, 408);
+            this.button1.Location = new System.Drawing.Point(10, 399);
             this.button1.Margin = new System.Windows.Forms.Padding(10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 49);
@@ -498,7 +498,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Silver;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(10, 339);
+            this.button2.Location = new System.Drawing.Point(10, 330);
             this.button2.Margin = new System.Windows.Forms.Padding(10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(183, 49);
@@ -511,7 +511,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Silver;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(10, 274);
+            this.button3.Location = new System.Drawing.Point(10, 265);
             this.button3.Margin = new System.Windows.Forms.Padding(10);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(183, 45);
@@ -524,7 +524,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Silver;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Location = new System.Drawing.Point(10, 206);
+            this.button4.Location = new System.Drawing.Point(10, 197);
             this.button4.Margin = new System.Windows.Forms.Padding(10);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(183, 48);
@@ -537,7 +537,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Silver;
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Location = new System.Drawing.Point(10, 140);
+            this.button5.Location = new System.Drawing.Point(10, 131);
             this.button5.Margin = new System.Windows.Forms.Padding(10);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(183, 46);
@@ -550,7 +550,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Location = new System.Drawing.Point(10, 72);
+            this.button6.Location = new System.Drawing.Point(10, 63);
             this.button6.Margin = new System.Windows.Forms.Padding(10);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(183, 48);
@@ -562,7 +562,7 @@
             // button7
             // 
             this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(10, 6);
+            this.button7.Location = new System.Drawing.Point(10, -3);
             this.button7.Margin = new System.Windows.Forms.Padding(10);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(183, 46);
@@ -575,7 +575,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(10, 482);
+            this.label23.Location = new System.Drawing.Point(10, 473);
             this.label23.Margin = new System.Windows.Forms.Padding(10, 15, 3, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(75, 16);
@@ -586,7 +586,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 725);
+            this.ClientSize = new System.Drawing.Size(1231, 713);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
